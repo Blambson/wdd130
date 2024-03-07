@@ -1,3 +1,15 @@
+main{
+    font-size:66px;
+}
+
+main blockquote {
+    font-size:5px;
+}
+
+.para1{
+    
+}
+
 .callout {
 	width: 400px;
     margin: 10px;
@@ -7,14 +19,18 @@
     color: #e05050;
 }
 
-.callout img {
+ img {
     float: left;
 	margin: 15px;
     border: 5cap;
     padding: 20%;
     background-color: rgb(193, 19, 39);
-    width: 100px;
+
     height: 100px;
+}
+
+.callout blockquote{
+    font-size: 12px;
 }
 
 blockquote {
