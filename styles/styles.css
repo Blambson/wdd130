@@ -11,7 +11,7 @@ h1 {
     color:steelblue;
 }
 main img {
-    width: 150 px;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -20,7 +20,7 @@ main img {
 p {
     padding: 0px;
 }
-.mylink {color: rgb(226, 43, 171); size: 28px;
+.mylink {color: rgb(226, 43, 171);
 }
 main {
     max-width: 840px;   
