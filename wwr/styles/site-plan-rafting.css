@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap')
+
 header {
     padding: 20px;
     background-color: var(#3719cf);
@@ -7,14 +9,15 @@ p  {
     padding: 25px
 }
 
-body 
+body {
     font-family: var--cabin;
     max-width: 960px;
     padding: 20px;
+}
 
 :root {
     --primary-color: #cc8e30;
-    --secondary-color: #4ecdc4;
+    --background-color: #4ecdc4;
     --accent1-color: #3719cf;
     --accent2-color: #ffe66d;
 
@@ -27,7 +30,7 @@ body
     --nav-hover-background-color: #2525c6;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+    font-family: var(pacifico);
     color: var(--primary-color);
 }
 nav {
@@ -37,7 +40,7 @@ nav {
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     color: #aaaaaa;
     padding: 1rem;
 
