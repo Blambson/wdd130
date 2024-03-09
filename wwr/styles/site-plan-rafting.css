@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap')
+header {
+    padding: 20px;
+    background-color: var(#3719cf);
+}
+p  {
+    padding: 25px
+}
+
+body 
+    font-family: var--cabin;
+    max-width: 960px;
+    padding: 20px;
+
+:root {
+    --primary-color: #cc8e30;
+    --secondary-color: #4ecdc4;
+    --accent1-color: #3719cf;
+    --accent2-color: #ffe66d;
+
+    --heading-font: Pacifico, serif;
+    --parapgraph-font: Cabin, serif;
+
+    --nav-background-color: #aaaaaa;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #555555;
+    --nav-hover-background-color: #2525c6;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+nav {
+    background-color: rgb(247, 143, 6);
+    font-size: 1.2rem;
+    display: inline-flex;
+}
+
+nav a {
+    display: inline-block;
+    color: #aaaaaa;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited {
+    color: #181508;
+}
+
+nav a:hover {
+    color: mistyrose;
+    background-color: #aaaaaa;
+    padding-left: 1rem;
+}
