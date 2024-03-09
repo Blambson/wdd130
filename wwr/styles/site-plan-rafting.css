@@ -1,16 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap');
 
 header {
     padding: 20px;
-    background-color: var(#3719cf);
+    background-color: #3719cf;
 }
 p  {
     padding: 25px
 }
 
 body {
-    font-family: var--cabin;
+    font-family: Cabin;
     max-width: 960px;
     padding: 20px;
 }
@@ -30,7 +30,7 @@ body {
     --nav-hover-background-color: #2525c6;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(pacifico);
+    font-family: Pacifico;
     color: var(--primary-color);
 }
 nav {
