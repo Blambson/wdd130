@@ -21,8 +21,8 @@ body {
     --accent1-color: #3719cf;
     --accent2-color: #ffe66d;
 
-    --heading-font: Pacifico, serif;
-    --paragraph-font: Cabin, serif;
+    --heading-font: 'Pacifico', serif;
+    --paragraph-font: 'Cabin', serif;
 
     --nav-background-color: #aaaaaa;
     --nav-link-color: #ffffff;
