@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,7 +20,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 5px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -26,20 +33,48 @@ main {
     max-width: 840px;   
 }
 aside {
-    width: 20rem;
+    position: relative;
+    width: 30rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 20px solid rgba(27, 157, 29, 0.2);
     padding: 1rem;
-    background-color: #eee;
+    background-color: rgba(27, 157, 29, .1);
     color: #333;
     text-align: center;
 }
 aside img {
-    width: 200px;
+    width: 400px;
     height: auto;
+}
+aside h2 {
+    position:relative;
+    top: 30px;
+    right: 10 px;
+
 }
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    position: relative;
+    margin: 1rem;
+    border: 2px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: rgb(170, 208, 228);
+    color: rgb(43, 14, 83);
+}
+.mylink {
+    position: bottom;
+    color: aliceblue;
+}
+.family {
+    float: right;
+    width: 250px;
+}
+.cookie {
+    max-height: 175px;
+    width: auto;
 }
