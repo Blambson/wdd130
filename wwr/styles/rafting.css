@@ -3,26 +3,27 @@
 
 header {
     padding: 20px;
-    background-color: #3719cf;
+    background-color: #f7fff7;
+    border: 2px solid var(--secondary-color)
 }
 p  {
     padding: 25px
 }
 
 body {
-    font-family: Cabin;
+    font-family: "Cabin";
     max-width: 960px;
     padding: 20px;
 }
 
 :root {
-    --primary-color: #4ECDC4;
-    --secondary-color: #292f36;
+    --primary-color: #5a5757;
+    --secondary-color: #4ECDC4;
     --accent1-color: #f7fff7;
-    --accent2-color: #ffe66d;
+    --accent2-color: mistyrose;
 
-    --heading-font: 'Pacifico', serif;
-    --paragraph-font: 'Cabin', serif;
+    --heading-font: "Pacifico";
+    --paragraph-font: "Cabin", serif;
 
     --nav-background-color: #aaaaaa;
     --nav-link-color: #ffffff;
@@ -32,9 +33,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico';
     color: var(--primary-color);
+    
 }
 nav {
-    background-color: rgb(247, 143, 6);
+    background-color: var(--accent2-color);
     font-size: 1.2rem;
     display: inline-flex;
 }
