@@ -16,9 +16,9 @@ body {
 }
 
 :root {
-    --primary-color: #cc8e30;
-    --secondary-color: #4ecdc4;
-    --accent1-color: #3719cf;
+    --primary-color: #4ECDC4;
+    --secondary-color: #292f36;
+    --accent1-color: #f7fff7;
     --accent2-color: #ffe66d;
 
     --heading-font: 'Pacifico', serif;
