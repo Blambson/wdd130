@@ -63,3 +63,15 @@ nav a:hover {
     padding: 1rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);}
+.hero {
+    position: relative;
+    border: 2px solid #555555;
+    float: right
+}
+.happy {
+    position: absolute;
+    float: right;
+    max-height: 50
+px;
+    max-width: auto;
+}
