@@ -71,7 +71,6 @@ nav a:hover {
 .happy {
     position: absolute;
     float: right;
-    max-height: 50
-px;
+    max-height: 50px;
     max-width: auto;
 }
