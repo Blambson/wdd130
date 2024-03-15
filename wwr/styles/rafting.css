@@ -7,12 +7,14 @@ header {
     border: 2px solid var(--secondary-color)
 }
 p  {
-    padding: 25px
+    font-family:var(--paragraph-font);
+    padding: 25px;
 }
 
 body {
     font-family: "Cabin";
     max-width: 960px;
+    min-width: 750px;
     padding: 20px;
 }
 
@@ -23,7 +25,7 @@ body {
     --accent2-color: mistyrose;
 
     --heading-font: "Pacifico";
-    --paragraph-font: "Cabin", serif;
+    --paragraph-font: "Cabin","Arial";
 
     --nav-background-color: #aaaaaa;
     --nav-link-color: #ffffff;
@@ -77,19 +79,23 @@ nav a:hover {
     text-align: center;
 }
 .happy  {
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    height: 25%;
+    float: right;
+    height: 80px;
     border: 2px solid var(--accent1-color);
 }
 .heroimg {
     width: 100%;
+    display: block; 
+    height: auto;
 }
 .article {
+    background-color: #f7fff7;
+    right: 30px;
+    left: 30px;
     position:absolute;
-    top:30px;
-    width: 90%;
+    top:90px;
+    width: 100%;
+    color: var(--primary-color);
 }
 
 .herooverlay    {
