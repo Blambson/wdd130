@@ -64,33 +64,28 @@ nav a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);}
 .hero {
-    position: absolute;
-    height: 100%;
+    position: relative;
     border: 2px solid #555555;
     right: 0px;
     left: 0px;
 }
-.happy {
+.inset  {
     position: absolute;
-    right: 25px;
-    top: 7%;
-    max-width: 20%;
-    border: 5px solid var(--accent1-color);
-}
-.inset   {
-    position: absolute;
-    text-align: center;
-    left: 25px;
-    top:0px;
     color: var(--accent1-color);
-    size: 70%;
-}
-.text   {
-    position: absolute;
-    bottom: 5px;
-    top: 50%;
+    top: 5px;
+    left: 23%;
+    width: 100%;
     text-align: center;
+
+}
+.happy  {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+.heroimg {
 }
 
+.herooverlay    {
 
 }
