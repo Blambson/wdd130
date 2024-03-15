@@ -73,17 +73,23 @@ nav a:hover {
     position: absolute;
     color: var(--accent1-color);
     top: 5px;
-    left: 23%;
     width: 100%;
     text-align: center;
-
 }
 .happy  {
     position: absolute;
-    left: 0px;
-    right: 0px;
+    right: 5%;
+    top: 5%;
+    height: 25%;
+    border: 2px solid var(--accent1-color);
 }
 .heroimg {
+    width: 100%;
+}
+.article {
+    position:absolute;
+    top:30px;
+    width: 90%;
 }
 
 .herooverlay    {
