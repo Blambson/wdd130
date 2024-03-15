@@ -64,13 +64,33 @@ nav a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);}
 .hero {
-    position: relative;
+    position: absolute;
+    height: 100%;
     border: 2px solid #555555;
-    float: right
+    right: 0px;
+    left: 0px;
 }
 .happy {
     position: absolute;
-    float: right;
-    max-height: 50px;
-    max-width: auto;
+    right: 25px;
+    top: 7%;
+    max-width: 20%;
+    border: 5px solid var(--accent1-color);
+}
+.inset   {
+    position: absolute;
+    text-align: center;
+    left: 25px;
+    top:0px;
+    color: var(--accent1-color);
+    size: 70%;
+}
+.text   {
+    position: absolute;
+    bottom: 5px;
+    top: 50%;
+    text-align: center;
+}
+
+
 }
