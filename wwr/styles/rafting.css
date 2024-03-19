@@ -97,7 +97,12 @@ nav a:hover {
     width: 100%;
     color: var(--primary-color);
 }
+.sociallinks  {
+    position:absolute;
+    right: 30px;
 
+
+}
 .herooverlay    {
 
 }
