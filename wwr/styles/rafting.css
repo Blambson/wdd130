@@ -15,7 +15,7 @@ header img  {
 p  {
     font-family:var(--paragraph-font);
     padding: 25px;
-}S
+}
 
 body {
     font-family: "Cabin";
@@ -124,6 +124,12 @@ section {
 }
 .bottompics {
     border: 5px solid yellow;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr}
+    
+    .bottompics img {
+        width: 100%;
+        max-height:128px;
+        min-height: 128px;
 
 }
