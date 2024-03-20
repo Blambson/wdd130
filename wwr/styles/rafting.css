@@ -2,9 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap');
 
 header {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     padding: 20px;
     background-color: #f7fff7;
     border: 2px solid var(--secondary-color)
+}
+header img  {
+    border: 2px solid orangered ;
+    display: grid;
+    align-self: center;
 }
 p  {
     font-family:var(--paragraph-font);
@@ -39,12 +46,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 nav {
     background-color: var(--accent2-color);
+    display: flex;
     font-size: 1.2rem;
-    display: inline-flex;
+    border: 2px solid gold;
+    align-items: center;
+    justify-items: ;
+    flex-grow: ;
+
 }
 
 nav a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
     color: #aaaaaa;
     padding: 1rem;
 
