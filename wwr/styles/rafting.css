@@ -1,33 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap');
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 3fr ;
-    padding: 20px;
-    background-color: #f7fff7;
-    border: 2px solid var(--secondary-color)
-}
-header img  {
-    border: 2px solid orangered ;
-    width: 200px;
-}
-header, footer  {
-    max-width: 840px; 
-    margin: 0 auto;
-}
-p  {
-    font-family:var(--paragraph-font);
-    padding: 25px;
-}
-
-body {
-    font-family: "Cabin";
-  /*  max-width: 960px;
-    min-width: 750px;*/
-    padding: 20px;
-}
-
 :root {
     --primary-color: #5a5757;
     --secondary-color: #4ECDC4;
@@ -42,13 +15,37 @@ body {
     --nav-hover-link-color: #555555;
     --nav-hover-background-color: #2525c6;
 }
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    padding: 20px;
+    background-color: #f7fff7;
+    border: 2px solid var(--secondary-color)
+}
+header img  {
+    border: 2px solid orangered ;
+    width: 200px;
+}
+
+p  {
+    font-family:var(--paragraph-font);
+    padding: 25px;
+}
+
+body {
+    font-family: "Cabin";
+    width: 960px;
+    padding: 20px;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico';
     color: var(--primary-color);
     text-align: center;
 
 }
-nav {
+header nav {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 40px;
@@ -120,9 +117,13 @@ nav a:hover {
     
     color: var(--primary-color);
 }
-.sociallinks  {
-    position:absolute;
-    right: 30px;
+footer{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sociallinks{
+    display: flex;
 }
 section {
     display: flex;
@@ -133,18 +134,17 @@ flex-grow: -1;
 
 }
 .flex-container { 
-    position: relative;
    border: 5px solid yellow;
    display: flex;
-   justify-content: space-between;
+   gap: .5rem;
 }
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
     padding: 5px;
-    max-width: 220px;
     margin: auto;
+  }
+  figure img{
+    max-width: 100%;
   }
   figcaption {
     background-color: var(--primary-color);
