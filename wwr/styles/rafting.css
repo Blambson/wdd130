@@ -109,6 +109,7 @@ nav a:hover {
     height: auto;
 }
 .article {
+    
     display: grid;
     align-items: center;
     background-color: #f7fff7;
@@ -126,9 +127,16 @@ nav a:hover {
 section {
     display: flex;
 }
+section img {
+display: flex;
+flex-grow: -1;
+
+}
 .flex-container { 
-    display: flex;
+    position: relative;
    border: 5px solid yellow;
+   display: flex;
+   justify-content: space-between;
 }
 figure {
     border: thin #c0c0c0 solid;
