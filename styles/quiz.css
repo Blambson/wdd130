@@ -11,31 +11,35 @@ legend   {
 input[type=text] {
     border: 2px solid brown;
     border-radius: 4px;}
-    select  {
+
+select  {
         background-color: antiquewhite;
+        border: 2px solid brown;
     }
 fieldset    {
     border: 2px solid olive;
 }
 input[type=number]  {
     background-color: antiquewhite;
+    border: 2px solid brown;
+    width: 35px;
 }
 
 input, textarea {
     padding: 10px;
     margin: 8px;
     font-size: larger;
-    background-color: antiquewhite;   
+    background-color: antiquewhite; 
+    border: 2px solid brown;  
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid black;
-   
-form {
-    max-width: 600px;
-    display: flex;
+}
+   form { 
     flex-direction: column;
+    justify-self: center;
     justify-content: center;
 }
