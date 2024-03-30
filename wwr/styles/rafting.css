@@ -122,6 +122,38 @@ nav a:hover {
     height: 250px;
     border: 2px solid var(--nav-background-color);
 }
+/*contact page*/
+.questions   {
+    display: grid;
+    grid-gap: 2px;
+    height: 100%;
+}
+.fillout   {
+    display: grid;
+    grid-gap: 11px;
+    height: 100%;}
+    
+form    {
+    display: flex;
+    width: fit-content;
+    justify-items: ;
+    align-items: center;
+    height: auto;
+    ;
+}    
+button  {
+    width: 8rem;
+    height: 3rem;
+}
+.info    {
+    border: 3px solid var(--nav-hover-link-color);
+    width: auto;
+   
+}
+.map    {
+   border: 5px solid var(--primary-color);
+   width: 600px;
+
 
 footer{
     display:grid;
