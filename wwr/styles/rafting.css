@@ -177,7 +177,7 @@ button  {
     display: flex;
     font-size: 20px;
 }
-.bunny  {
+.bunnycontainer  {
     display: flex;
     height: 600px;
 }
