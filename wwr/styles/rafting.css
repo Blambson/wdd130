@@ -179,9 +179,11 @@ button  {
 }
 .bunny  {
     display: flex;
+    height: 600px;
 }
 .employees  {
-   ;
+    display: flex;
+    flex-direction: column;
 }
 
 
