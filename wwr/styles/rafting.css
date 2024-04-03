@@ -187,10 +187,7 @@ button  {
 }
 
 
-
-
-
-footer{
+footer  {
     display:grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -199,4 +196,20 @@ footer{
     display: flex;
 }
 
-
+/*homepage*/
+.homepage {
+    border: var(--primary-color) solid 3px;
+}
+.heading {
+    text-decoration: underline;
+}
+.second {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.link   {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
